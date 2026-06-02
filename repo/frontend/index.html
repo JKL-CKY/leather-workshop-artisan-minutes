@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>匠人纪要 · 手工皮具工坊</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🧵 匠人纪要</h1>
+            <nav class="nav">
+                <a href="#patterns" class="nav-link active">皮具打版</a>
+                <a href="#stitching" class="nav-link">缝线步骤</a>
+                <a href="#tools" class="nav-link">工具库</a>
+                <a href="#upload" class="nav-link">课程转录</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="patterns" class="section">
+            <div class="container">
+                <h2 class="section-title">📐 皮具打版图库</h2>
+                <div class="patterns-grid" id="patternsGrid"></div>
+            </div>
+        </section>
+
+        <div id="patternModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modalBody"></div>
+            </div>
+        </div>
+
+        <section id="stitching" class="section">
+            <div class="container">
+                <h2 class="section-title">🪡 缝线步骤教程</h2>
+                <div class="stitching-steps" id="stitchingSteps">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>准备工具</h3>
+                            <p>准备菱斩、蜡线、手缝针、边线器、间距规等工具。</p>
+                            <div class="step-tips">
+                                <span class="tip">💡 建议使用0.8mm蜡线</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>划线定位</h3>
+                            <p>使用间距规在皮革边缘画出缝合线，距离边缘2-3mm。</p>
+                            <div class="step-tips">
+                                <span class="tip">💡 保持划线均匀一致</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>打孔</h3>
+                            <p>将菱斩垂直对准划线，用木槌轻敲，保持孔间距均匀。</p>
+                            <div class="step-tips">
+                                <span class="tip">💡 菱斩一定要垂直</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>穿线</h3>
+                            <p>采用双针缝法，线的两端各穿一根针，线长约为缝合距离的4-5倍。</p>
+                            <div class="step-tips">
+                                <span class="tip">💡 线的两端都要穿针</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3>起针</h3>
+                            <p>从第一个孔开始，两根针分别从正反两面穿过，拉紧。</p>
+                            <div class="step-tips">
+                                <span class="tip">💡 保持两边线长相等</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">6</div>
+                        <div class="step-content">
+                            <h3>交叉缝合</h3>
+                            <p>正面的针穿入下一个孔，从背面穿出，两根针交替进行。</p>
+                            <div class="step-tips">
+                                <span class="tip">💡 每针力度要均匀</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">7</div>
+                        <div class="step-content">
+                            <h3>收针</h3>
+                            <p>缝合完成后，回缝2-3针固定，然后在背面打结剪断。</p>
+                            <div class="step-tips">
+                                <span class="tip">💡 用打火机烧线头更牢固</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="section">
+            <div class="container">
+                <h2 class="section-title">🛠️ 皮革工具库</h2>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon">✂️</div>
+                        <h3>裁皮刀</h3>
+                        <p>用于精确切割皮革，保持刀刃锋利是关键。</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon">📏</div>
+                        <h3>菱斩</h3>
+                        <p>用于打出缝合孔，有2mm、2.5mm、3mm等规格。</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon">🧵</div>
+                        <h3>蜡线</h3>
+                        <p>经过上蜡处理的亚麻线，结实耐用不易松脱。</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon">🪡</div>
+                        <h3>手缝针</h3>
+                        <p>钝头设计，防止刺破手指和皮革背面。</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon">🔪</div>
+                        <h3>边线器</h3>
+                        <p>用于在皮革边缘压出装饰线和缝合定位线。</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon">📐</div>
+                        <h3>间距规</h3>
+                        <p>精确调节缝合线距离边缘的距离。</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon">🧴</div>
+                        <h3>床面处理剂</h3>
+                        <p>用于处理皮革背面（床面），使其光滑整洁。</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon">🖌️</div>
+                        <h3>封边液</h3>
+                        <p>用于处理皮革切口边缘，增加光泽和耐用性。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="upload" class="section">
+            <div class="container">
+                <h2 class="section-title">🎙️ 课程转录笔记</h2>
+                <div class="upload-container">
+                    <div class="upload-area" id="uploadArea">
+                        <div class="upload-icon">📁</div>
+                        <p>拖拽音频文件到此处或点击上传</p>
+                        <input type="file" id="fileInput" accept="audio/*" style="display: none;">
+                        <button class="btn-primary" onclick="document.getElementById('fileInput').click()">选择文件</button>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="teacherName">授课老师姓名（可选）</label>
+                        <input type="text" id="teacherName" placeholder="例如：李老师" class="form-input">
+                    </div>
+
+                    <button class="btn-primary btn-large" id="processBtn" disabled>
+                        <span id="processText">开始处理</span>
+                        <span id="processSpinner" class="spinner" style="display: none;"></span>
+                    </button>
+
+                    <div id="fileInfo" class="file-info" style="display: none;"></div>
+                    <div id="progressBar" class="progress-bar" style="display: none;">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+
+                <div id="results" class="results-container" style="display: none;">
+                    <div class="result-section">
+                        <h3>📝 课程摘要</h3>
+                        <div id="summaryResult" class="result-content"></div>
+                    </div>
+
+                    <div class="result-section">
+                        <h3>📦 材料清单</h3>
+                        <div id="materialsResult" class="result-content"></div>
+                    </div>
+
+                    <div class="result-section">
+                        <h3>📧 Markdown课程笔记</h3>
+                        <textarea id="markdownResult" class="markdown-textarea" readonly></textarea>
+                        <button class="btn-secondary" onclick="copyMarkdown()">复制Markdown</button>
+                        <button class="btn-secondary" onclick="downloadMarkdown()">下载笔记</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 匠人纪要 · 传承手工皮具技艺</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

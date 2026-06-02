@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <pattern id="leatherTexture2" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#c9956c"/>
+      <circle cx="3" cy="3" r="0.5" fill="#b8855c" opacity="0.5"/>
+      <circle cx="8" cy="6" r="0.3" fill="#b8855c" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#5c3d2e">长款西装夹打版图</text>
+  <text x="450" y="52" text-anchor="middle" font-size="12" fill="#8b6914">比例 1:1 | 单位: mm</text>
+  
+  <g id="outerFront" transform="translate(40, 80)">
+    <rect x="0" y="0" width="190" height="95" rx="6" fill="url(#leatherTexture2)" stroke="#8b4513" stroke-width="2"/>
+    <text x="95" y="115" text-anchor="middle" font-size="11" fill="#5c3d2e">前外皮 190×95mm</text>
+  </g>
+  
+  <g id="outerBack" transform="translate(260, 80)">
+    <rect x="0" y="0" width="190" height="95" rx="6" fill="url(#leatherTexture2)" stroke="#8b4513" stroke-width="2"/>
+    <circle cx="170" cy="20" r="8" fill="none" stroke="#d2691e" stroke-width="1.5"/>
+    <text x="95" y="115" text-anchor="middle" font-size="11" fill="#5c3d2e">后外皮 190×95mm</text>
+    <text x="170" y="45" text-anchor="middle" font-size="9" fill="#d2691e">按扣位</text>
+  </g>
+  
+  <g id="innerLeft" transform="translate(40, 230)">
+    <rect x="0" y="0" width="185" height="88" rx="4" fill="url(#leatherTexture2)" stroke="#8b4513" stroke-width="2"/>
+    <rect x="8" y="8" width="85" height="52" fill="none" stroke="#d2691e" stroke-width="1" stroke-dasharray="3,2"/>
+    <rect x="8" y="65" width="85" height="15" fill="none" stroke="#d2691e" stroke-width="1" stroke-dasharray="3,2"/>
+    <rect x="98" y="8" width="80" height="52" fill="none" stroke="#d2691e" stroke-width="1" stroke-dasharray="3,2"/>
+    <rect x="98" y="65" width="80" height="15" fill="none" stroke="#d2691e" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="92" y="105" text-anchor="middle" font-size="11" fill="#5c3d2e">左内页 185×88mm (4卡位)</text>
+  </g>
+  
+  <g id="innerRight" transform="translate(260, 230)">
+    <rect x="0" y="0" width="185" height="88" rx="4" fill="url(#leatherTexture2)" stroke="#8b4513" stroke-width="2"/>
+    <rect x="8" y="8" width="85" height="52" fill="none" stroke="#d2691e" stroke-width="1" stroke-dasharray="3,2"/>
+    <rect x="98" y="8" width="80" height="52" fill="none" stroke="#d2691e" stroke-width="1" stroke-dasharray="3,2"/>
+    <rect x="8" y="65" width="170" height="15" fill="none" stroke="#d2691e" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="92" y="105" text-anchor="middle" font-size="11" fill="#5c3d2e">右内页 185×88mm (2卡位+零钱袋)</text>
+  </g>
+  
+  <g id="billLayer" transform="translate(480, 80)">
+    <rect x="0" y="0" width="185" height="180" rx="6" fill="url(#leatherTexture2)" stroke="#8b4513" stroke-width="2"/>
+    <line x1="0" y1="90" x2="185" y2="90" stroke="#d2691e" stroke-width="1" stroke-dasharray="5,3"/>
+    <text x="92" y="55" text-anchor="middle" font-size="11" fill="#5c3d2e">上层钞位</text>
+    <text x="92" y="135" text-anchor="middle" font-size="11" fill="#5c3d2e">下层钞位</text>
+    <text x="92" y="205" text-anchor="middle" font-size="11" fill="#5c3d2e">钞位隔层 185×180mm</text>
+  </g>
+  
+  <g id="stitchingGuide" transform="translate(40, 370)">
+    <rect x="0" y="0" width="330" height="180" fill="#fffaf5" rx="8" stroke="#e0d5c5" stroke-width="1"/>
+    <text x="15" y="25" font-size="13" font-weight="bold" fill="#5c3d2e">📐 制作说明</text>
+    <text x="15" y="50" font-size="11" fill="#5c3d2e">• 皮革厚度：外皮 1.2mm，内皮 1.0mm</text>
+    <text x="15" y="70" font-size="11" fill="#5c3d2e">• 缝线规格：0.6mm 蜡线，菱斩 2.0mm</text>
+    <text x="15" y="90" font-size="11" fill="#5c3d2e">• 边距：2.0mm，孔间距均匀</text>
+    <text x="15" y="110" font-size="11" fill="#5c3d2e">• 先粘后缝，白胶固定位置</text>
+    <text x="15" y="130" font-size="11" fill="#5c3d2e">• 转角处孔位加密，弧度自然</text>
+    <text x="15" y="150" font-size="11" fill="#5c3d2e">• 完成后打磨边缘，上封边液</text>
+    <text x="15" y="170" font-size="11" fill="#5c3d2e">• 按扣安装在居中偏上位置</text>
+  </g>
+  
+  <g id="dimensions2" transform="translate(700, 80)">
+    <line x1="0" y1="0" x2="0" y2="95" stroke="#333" stroke-width="1"/>
+    <line x1="-5" y1="0" x2="5" y2="0" stroke="#333" stroke-width="1"/>
+    <line x1="-5" y1="95" x2="5" y2="95" stroke="#333" stroke-width="1"/>
+    <text x="-15" y="50" text-anchor="middle" font-size="10" fill="#333" transform="rotate(-90, -15, 50)">95mm</text>
+    
+    <line x1="0" y1="110" x2="190" y2="110" stroke="#333" stroke-width="1"/>
+    <line x1="0" y1="105" x2="0" y2="115" stroke="#333" stroke-width="1"/>
+    <line x1="190" y1="105" x2="190" y2="115" stroke="#333" stroke-width="1"/>
+    <text x="95" y="130" text-anchor="middle" font-size="10" fill="#333">190mm</text>
+  </g>
+</svg>
