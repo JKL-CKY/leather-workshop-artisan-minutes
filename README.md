@@ -1,0 +1,2 @@
+# leather-workshop-artisan-minutes
+手工皮具工坊教学匠人纪要全栈系统——前端展示皮具打版图与缝线步骤，后端处理老师讲解，librosa降低敲击声，Whisper转写工具使用技巧与皮革知识，pyannote仅标记老师，OpenAI生成图文教程与材料清单摘要，Markdown邮件作为课程笔记
